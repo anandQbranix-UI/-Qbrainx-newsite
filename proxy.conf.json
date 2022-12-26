@@ -1,0 +1,12 @@
+{
+ "/qbrainx-api/*": {
+     "_comment": "Try This",
+     "target": "https://dev.qbrainx.com/resource-planning",
+     "secure": false,
+     "logLevel": "debug",
+     "pathRewrite": {
+         "^/qbrainx-api": ""
+     },
+     "changeOrigin": true
+ }
+}
